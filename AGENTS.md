@@ -29,6 +29,7 @@
 
 ## 学习进度
 
+- 第 2 讲（The Garden of Forking Data）：预习材料已完成（`prep/Lecture02_预习讲义.md`、`prep/lecture02_warmup.py`）。
 - 第 3 讲（Geocentric Models）：预习材料已完成（`prep/Lecture03_预习讲义.md`、`prep/lecture03_warmup.py`）。
 - 每完成一讲就更新这里的记录。
 
