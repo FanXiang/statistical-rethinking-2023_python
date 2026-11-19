@@ -3,7 +3,7 @@
 > 视频：<https://youtu.be/tNOu-SEacNU>（约 1 小时）
 > 教材：*Statistical Rethinking* 第 2 版，**第 4 章 4.1–4.4**（4.5 多项式/样条属于第 4 课）
 > Python 实现：`Lecture 03 - Geocentric Models.ipynb`（PyMC）
-> 对应作业：`stat_rethinking_2023_origin-/homework/week02.pdf`（第 1、2 题看完本课就能做，第 3 题要等第 4 课）
+> 对应作业：[homework/week02.pdf](https://github.com/rmcelreath/stat_rethinking_2023/blob/main/homework/week02.pdf)（第 1、2 题看完本课就能做，第 3 题要等第 4 课）
 > 热身脚本：`prep/lecture03_warmup.py`
 
 ---
@@ -111,7 +111,7 @@ $$
 
 **差异 1：先验设定与是否中心化**
 
-| | Notebook | 课堂 / 原始 R 脚本 `03_howell_new_weight_model.r` |
+| | Notebook | 课堂 / 原始 R 脚本 [`03_howell_new_weight_model.r`](https://github.com/rmcelreath/stat_rethinking_2023/blob/main/scripts/03_howell_new_weight_model.r) |
 |---|---|---|
 | 线性模型 | `mu = alpha + beta * H` | `mu = a + b * (H - Hbar)` |
 | α 先验 | Normal(0, 10) | Normal(60, 10) |
@@ -200,7 +200,7 @@ python prep/lecture03_warmup.py
 - **第 1 题**（<13 岁儿童，年龄 → 身高 → 体重，以及年龄 → 体重）：完全是本课的“画猫头鹰”第 2–3 步：画 DAG + 写生成模拟函数。
 - **第 2 题**（年龄对体重的**总**因果效应）：本课的线性回归即可；想一想为什么**不**应该把身高放进模型（提示：它在因果路径上，第 5–6 课会正式讲）。
 - **第 3 题**（分性别）：需要第 4 课的索引变量和后验对比（contrast），先别急。
-- 做完后对照 `homework/week02_solutions.pdf`（R 代码，可以按本讲义第 4 节的方式翻译成 PyMC）。
+- 做完后对照 [homework/week02_solutions.pdf](https://github.com/rmcelreath/stat_rethinking_2023/blob/main/homework/week02_solutions.pdf)（R 代码，可以按本讲义第 4 节的方式翻译成 PyMC）。
 
 ---
 
